@@ -1,27 +1,13 @@
 #!/bin/bash
-
-for n in {1..25}
+ay=(saa dsfdsgv sdgvsv sdgsg hheh 6544 sFgbsb)
+echo "ay lenth ${#ay[*]}"
+for ay_str in ${ay[*]}
 do
-    echo -n  " $n"
+    echo  $ay_str
 done
 
-for n in {a..z}
+ay1=([0]=sdfsf [1]=dsffsadfas [2]=3455411)
+for ((i=0;i<${#ay1[*]};i++))
 do
-    echo -n " $n"
-done
-
-for n in 25 45 89 15 78
-do
-    echo "$n"
-done
-
-for (( i=0;i<10;i++ ))
-do
-    echo "$i"
-done
-
-while [ 5 -eq 5 ]
-do
-    echo "AAA"
-    exit 12
+    echo  ${ay1[i]}
 done
